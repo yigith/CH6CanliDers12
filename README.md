@@ -66,3 +66,7 @@ using (var db = new UygulamaDbContext())
     }
 }
 ```
+
+### KAYNAKLAR
+- https://learn.microsoft.com/en-us/ef/core/ 
+- https://www.npgsql.org/efcore/?tabs=onconfiguring
