@@ -70,3 +70,20 @@ using (var db = new UygulamaDbContext())
 ### KAYNAKLAR
 - https://learn.microsoft.com/en-us/ef/core/ 
 - https://www.npgsql.org/efcore/?tabs=onconfiguring
+- https://learn.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-8.0&tabs=visual-studio
+
+# DERS 2
+
+## SQL SERVER ÜZERİNDE ÇALIŞMAK İÇİN
+
+### PACKAGES
+```
+Install-Package Microsoft.EntityFrameworkCore -v 8.0.11
+Install-Package Microsoft.EntityFrameworkCore.Tools -v 8.0.11
+Install-Package Microsoft.EntityFrameworkCore.SqlServer -v 8.0.11
+```
+
+### CONNECTION STRING
+```
+server=(localdb)\MSSQLLocalDB;database=AnadoluDb;trusted_connection=true
+```
