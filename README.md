@@ -1,4 +1,4 @@
-﻿﻿# CH6 - Canlı Ders 7b
+# CH6 - Canlı Ders 7b
 
 ## Microsoft EntityFramework Core
 
